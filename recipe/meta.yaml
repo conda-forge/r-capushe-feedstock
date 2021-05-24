@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: capushe_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/capushe_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/capushe/capushe_{{ version }}.tar.gz
@@ -38,7 +37,7 @@ test:
 
 about:
   home: http://www.math.u-psud.fr/~brault/capushe.html
-  license: GPL (>= 2.0)
+  license: GPL-2.0-or-later
   summary: Calibration of penalized criteria for model selection. The calibration methods available
     are based on the slope heuristics.
   license_family: GPL3
@@ -47,9 +46,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
