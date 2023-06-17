@@ -1,11 +1,11 @@
-About r-capushe
-===============
+About r-capushe-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-capushe-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.math.u-psud.fr/~brault/capushe.html
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-capushe-feedstock/blob/main/LICENSE.txt)
 
 Summary: Calibration of penalized criteria for model selection. The calibration methods available are based on the slope heuristics.
 
